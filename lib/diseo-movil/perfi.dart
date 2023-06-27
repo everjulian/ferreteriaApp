@@ -24,7 +24,7 @@ class Scene extends StatelessWidget {
             Container(
               // autogroupm82pX56 (TPdivhiMurjcgkM4Q8M82p)
               margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 35*fem),
-              padding: EdgeInsets.fromLTRB(48*fem, 52*fem, 44.5*fem, 7*fem),
+              padding: EdgeInsets.fromLTRB(48*fem, 52*fem, 25*fem, 7*fem),
               width: double.infinity,
               decoration: BoxDecoration (
                 color: Color(0xff3e54ac),
@@ -37,14 +37,15 @@ class Scene extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
+
                     // component1yxg (148:236)
-                    margin: EdgeInsets.fromLTRB(4*fem, 0*fem, 0*fem, 26*fem),
+                    margin: EdgeInsets.fromLTRB(4*fem, 0*fem, 0*fem, 30*fem),
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.end,
                       children: [
                         Container(
                           // vectorVw2 (I148:236;148:198)
-                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 24*fem, 7*fem),
+                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 5*fem),
                           child: TextButton(
                             onPressed: () {},
                             style: TextButton.styleFrom (
@@ -63,7 +64,7 @@ class Scene extends StatelessWidget {
                         ),
                         Container(
                           // vectoraSg (I148:236;148:196)
-                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 26*fem, 4*fem),
+                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 5*fem),
                           child: TextButton(
                             onPressed: () {},
                             style: TextButton.styleFrom (
@@ -82,7 +83,7 @@ class Scene extends StatelessWidget {
                         ),
                         Container(
                           // ellipse1Hbz (I148:236;187:161)
-                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 20.75*fem, 0*fem),
+                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 5*fem, 5*fem),
                           width: 40*fem,
                           height: 40*fem,
                           decoration: BoxDecoration (
@@ -97,13 +98,13 @@ class Scene extends StatelessWidget {
                         ),
                         Container(
                           // autogroupgx4xBhN (TPdjFmzutwcwZHpGojGX4x)
-                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 21*fem, 0*fem),
+                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem,15*fem, 0*fem),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Container(
                                 // bienvenidoWzY (I148:236;148:190)
-                                margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 8*fem),
+                                margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 5*fem),
                                 child: Text(
                                   'Bienvenido',
                                   style: SafeGoogleFont (
@@ -146,6 +147,10 @@ class Scene extends StatelessWidget {
                       ],
                     ),
                   ),
+
+
+                  
+                 
                   Container(
                     // autogroupuemrp84 (TPdj3HMjL7LYZN2LL7Uemr)
                     margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 4.5*fem, 0*fem),
@@ -365,9 +370,9 @@ class Scene extends StatelessWidget {
                 ],
               ),
             ),
-            Container(
-              // autogroupjiqlCVJ (TPdjb1wrSwjdcfB94RJiQL)
-              padding: EdgeInsets.fromLTRB(48.38*fem, 9*fem, 10.62*fem, 7*fem),
+          Container(
+              // autogroupyvcyegk (TPdKws1Cxp1xJKyDmDYVcY)
+              padding: EdgeInsets.fromLTRB(30*fem, 10*fem, 27.62*fem, 1*fem),
               width: double.infinity,
               height: 86*fem,
               decoration: BoxDecoration (
@@ -378,21 +383,21 @@ class Scene extends StatelessWidget {
                 ),
               ),
               child: Container(
-                // component3tsv (166:316)
+                // component38rp (166:271)
                 width: double.infinity,
                 height: double.infinity,
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Container(
-                      // autogroup5rjkEgt (TPdjjvrfp3Zg6qKYqe5RJk)
-                      margin: EdgeInsets.fromLTRB(0*fem, 1*fem, 68.03*fem, 0*fem),
+                      // autogroupvnlkfrk (TPdL8MhiidXy4M5L5mvnLk)
+                      margin: EdgeInsets.fromLTRB(0*fem, 1*fem, 55*fem, 0*fem),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           Container(
-                            // cardlistNHJ (I166:316;166:266)
-                            margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0.48*fem, 12.75*fem),
+                            // cardlistCbn (I166:271;166:266)
+                            margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 3*fem, 3*fem),
                             child: TextButton(
                               onPressed: () {},
                               style: TextButton.styleFrom (
@@ -402,7 +407,7 @@ class Scene extends StatelessWidget {
                                 width: 36.27*fem,
                                 height: 35.25*fem,
                                 child: Image.asset(
-                                  'assets/diseo-movil/images/cardlist-Cdi.png',
+                                  'assets/diseo-movil/images/cardlist-u9N.png',
                                   width: 36.27*fem,
                                   height: 35.25*fem,
                                 ),
@@ -410,7 +415,7 @@ class Scene extends StatelessWidget {
                             ),
                           ),
                           Text(
-                            // inventarioT3r (I166:316;166:269)
+                            // inventario5fa (I166:271;166:269)
                             'Inventario',
                             textAlign: TextAlign.center,
                             style: SafeGoogleFont (
@@ -425,7 +430,7 @@ class Scene extends StatelessWidget {
                       ),
                     ),
                     Container(
-                      // autogrouppmy6aeG (TPdjqLsKFsZ3ffmFr1PMy6)
+                      // autogroupsjk6dBJ (TPdLGBp1PmN8q9vzrvSJK6)
                       margin: EdgeInsets.fromLTRB(0*fem, 1*fem, 73.24*fem, 1*fem),
                       width: 40.72*fem,
                       height: double.infinity,
@@ -433,26 +438,18 @@ class Scene extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           Container(
-                            // vectorVmE (I166:316;166:262)
-                            margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 12*fem),
-                            child: TextButton(
-                              onPressed: () {},
-                              style: TextButton.styleFrom (
-                                padding: EdgeInsets.zero,
-                              ),
-                              child: Container(
-                                width: 36.27*fem,
-                                height: 35*fem,
-                                child: Image.asset(
-                                  'assets/diseo-movil/images/vector-DJC.png',
-                                  width: 36.27*fem,
-                                  height: 35*fem,
-                                ),
-                              ),
+                            // vectorYp4 (I166:271;166:262)
+                            margin: EdgeInsets.fromLTRB(0*fem, 6*fem, 0*fem, 12*fem),
+                            width: 36.27*fem,
+                            height: 35*fem,
+                            child: Image.asset(
+                              'assets/diseo-movil/images/vector-rHr.png',
+                              width: 36.27*fem,
+                              height: 35*fem,
                             ),
                           ),
                           Container(
-                            // iniciobpG (I166:316;166:263)
+                            // iniciosLY (I166:271;166:263)
                             width: double.infinity,
                             child: Text(
                               'Inicio',
@@ -470,14 +467,14 @@ class Scene extends StatelessWidget {
                       ),
                     ),
                     Container(
-                      // autogroups7hn8JQ (TPdjug5S1jYYX8vDrJS7hN)
+                      // autogroupxfelPpg (TPdLMBfgRJH6RveaFZxFEL)
                       margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 1*fem),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           Container(
-                            // vectorXrL (I166:316;166:264)
-                            margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0.48*fem, 13*fem),
+                            // vectorYBn (I166:271;166:264)
+                            margin: EdgeInsets.fromLTRB(0*fem, 1*fem, 5*fem, 2*fem),
                             child: TextButton(
                               onPressed: () {},
                               style: TextButton.styleFrom (
@@ -487,7 +484,7 @@ class Scene extends StatelessWidget {
                                 width: 36.27*fem,
                                 height: 35*fem,
                                 child: Image.asset(
-                                  'assets/diseo-movil/images/vector-4Xv.png',
+                                  'assets/diseo-movil/images/vector-rv8.png',
                                   width: 36.27*fem,
                                   height: 35*fem,
                                 ),
@@ -495,7 +492,7 @@ class Scene extends StatelessWidget {
                             ),
                           ),
                           Text(
-                            // productosq6L (I166:316;166:265)
+                            // productosEKW (I166:271;166:265)
                             'Productos',
                             textAlign: TextAlign.center,
                             style: SafeGoogleFont (

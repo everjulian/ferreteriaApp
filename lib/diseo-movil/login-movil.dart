@@ -11,7 +11,7 @@ class Scene extends StatelessWidget {
     double baseWidth = 393;
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
-    return Container(
+    return SizedBox(
       width: double.infinity,
       child: Container(
         // loginmovil1kg (47:219)
@@ -204,7 +204,7 @@ class Scene extends StatelessWidget {
                                     color: Colors
                                         .white), // Establece el color de la tipografía en blanco
                                 filled: true,
-                                fillColor:  Color(0xffbface2),
+                                fillColor: Color(0xffbface2),
                                 border: OutlineInputBorder(
                                   borderRadius: BorderRadius.circular(50 * fem),
                                   borderSide: BorderSide.none,
@@ -284,39 +284,37 @@ class Scene extends StatelessWidget {
 
                   // Boton para otra pagina
 
-                 GestureDetector(
-  onTap: () {
-    // Navegar a la otra página aquí
-    // Por ejemplo:
-    // Navigator.push(
-    //   context,
-    //   // MaterialPageRoute(builder: (context) => OtraPagina()),
-    // );
-  },
-  child: Container(
-    // autogroup5owcnCL (TPdFELCK3qe9pXfn4M5oWC)
-    margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 7 * fem, 29 * fem),
-    width: 295 * fem,
-    height: 58 * fem,
-    decoration: BoxDecoration(
-      color: Color(0xff3e54ac),
-      borderRadius: BorderRadius.circular(50 * fem),
-    ),
-    child: Center(
-      child: Text(
-        'Iniciar sesión',
-        textAlign: TextAlign.center,
-        style: TextStyle(
-          fontFamily: 'Mulish',
-          fontSize: 16 * ffem,
-          fontWeight: FontWeight.w600,
-          height: 1.255 * ffem / fem,
-          color: Color(0xffecf2ff),
-        ),
-      ),
-    ),
-  ),
-),
+                  TextButton(
+                    onPressed: () {
+                      Navigator.pushNamed(context,'/home'); // Navegar a la página de home
+                    },
+                    child: Container(
+                      // autogroup5owcnCL (TPdFELCK3qe9pXfn4M5oWC)
+                      margin: EdgeInsets.fromLTRB(
+                          0 * fem, 0 * fem, 7 * fem, 29 * fem),
+                      width: 295 * fem,
+                      height: 58 * fem,
+                      decoration: BoxDecoration(
+                        color: Color(0xff3e54ac),
+                        borderRadius: BorderRadius.circular(50 * fem),
+                      ),
+                      child: Center(
+                        child: Text(
+                          'Iniciar sesión',
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                            fontFamily: 'Mulish',
+                            fontSize: 16 * ffem,
+                            fontWeight: FontWeight.w600,
+                            height: 1.255 * ffem / fem,
+                            color: Color(0xffecf2ff),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                  
+                  // Datos informativos
 
                   Container(
                     // autogroupgxp6S1z (TPdFJkEd6AFLGQmZzBgxP6)
@@ -344,15 +342,23 @@ class Scene extends StatelessWidget {
                         ),
                         TextButton(
                           // crearcuentas7J (47:232)
-                          onPressed: () {},
+                          onPressed: () {
+                            // Navegar a la otra página aquí
+                            // Por ejemplo:
+                            // Navigator.push(
+                            //   context,
+                            //   MaterialPageRoute(
+                            //       builder: (context) => OtraPagina()),
+                            // );
+                          },
                           style: TextButton.styleFrom(
                             padding: EdgeInsets.zero,
                           ),
                           child: Text(
-                            'Crear Cuenta',
+                            'Crear cuenta',
                             textAlign: TextAlign.center,
-                            style: SafeGoogleFont(
-                              'Mulish',
+                            style: TextStyle(
+                              fontFamily: 'Mulish',
                               fontSize: 16 * ffem,
                               fontWeight: FontWeight.w600,
                               height: 1.255 * ffem / fem,

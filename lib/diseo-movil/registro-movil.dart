@@ -31,7 +31,7 @@ class Scene extends StatelessWidget {
                 children: [
                   Container(
                     // arrowleftsquare2gt (62:462)
-                    margin: EdgeInsets.fromLTRB(0*fem, 3*fem, 153*fem, 0*fem),
+                    margin: EdgeInsets.fromLTRB(0*fem, 3*fem, 100*fem, 0*fem),
                     child: TextButton(
                       onPressed: () {},
                       style: TextButton.styleFrom (

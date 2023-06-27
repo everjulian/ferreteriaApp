@@ -9,7 +9,7 @@ class Scene extends StatelessWidget {
   Widget build(BuildContext context) {
     double baseWidth = 393;
     double fem = MediaQuery.of(context).size.width / baseWidth;
-    double ffem = fem * 0.97;
+    double ffem = fem * 0.80;
     return Container(
       width: double.infinity,
       child: Container(
@@ -23,7 +23,7 @@ class Scene extends StatelessWidget {
           children: [
             Container(
               // autogroupubnt9WU (TPdJVuR6vFsrEB8MCkUBnt)
-              padding: EdgeInsets.fromLTRB(34*fem, 51*fem, 28*fem, 31*fem),
+              padding: EdgeInsets.fromLTRB(5*fem,30*fem, 20*fem,31*fem),
               width: double.infinity,
               decoration: BoxDecoration (
                 color: Color(0xff3e54ac),
@@ -37,14 +37,14 @@ class Scene extends StatelessWidget {
                 children: [
                   Container(
                     // component1364 (148:201)
-                    margin: EdgeInsets.fromLTRB(16*fem, 0*fem, 18.5*fem, 18*fem),
+                    margin: EdgeInsets.fromLTRB(10*fem, 0*fem, 18.5*fem, 18*fem),
                     width: double.infinity,
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.end,
                       children: [
                         Container(
                           // vectorARa (I148:201;148:198)
-                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 24*fem, 7*fem),
+                          margin: EdgeInsets.fromLTRB(0*fem, 10*fem, 5*fem, 5*fem),
                           child: TextButton(
                             onPressed: () {},
                             style: TextButton.styleFrom (
@@ -52,7 +52,7 @@ class Scene extends StatelessWidget {
                             ),
                             child: Container(
                               width: 25*fem,
-                              height: 25*fem,
+                              height: 30*fem,
                               child: Image.asset(
                                 'assets/diseo-movil/images/vector-52U.png',
                                 width: 25*fem,
@@ -63,7 +63,7 @@ class Scene extends StatelessWidget {
                         ),
                         Container(
                           // vectorrZJ (I148:201;148:196)
-                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 26*fem, 4*fem),
+                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 5*fem, 5*fem),
                           child: TextButton(
                             onPressed: () {},
                             style: TextButton.styleFrom (
@@ -82,7 +82,7 @@ class Scene extends StatelessWidget {
                         ),
                         Container(
                           // ellipse1MFA (I148:201;187:161)
-                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 20.75*fem, 0*fem),
+                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 15*fem, 5*fem),
                           child: TextButton(
                             onPressed: () {},
                             style: TextButton.styleFrom (
@@ -105,13 +105,13 @@ class Scene extends StatelessWidget {
                         ),
                         Container(
                           // autogroupfvdzqAL (TPdJvUYVddNEFxz6YGFvdz)
-                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 21*fem, 0*fem),
+                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 10*fem, 10*fem),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Container(
                                 // bienvenidoAyJ (I148:201;148:190)
-                                margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 8*fem),
+                                margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 5*fem),
                                 child: Text(
                                   'Bienvenido',
                                   style: SafeGoogleFont (
@@ -142,7 +142,7 @@ class Scene extends StatelessWidget {
                         ),
                         Container(
                           // vectornjn (I148:201;148:193)
-                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 40*fem),
+                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 20*fem),
                           width: 17.5*fem,
                           height: 20*fem,
                           child: Image.asset(
@@ -154,6 +154,7 @@ class Scene extends StatelessWidget {
                       ],
                     ),
                   ),
+
                   Container(
                     // autogroupmgzs7XA (TPdJgyvyfHhe95rEz7mGZS)
                     padding: EdgeInsets.fromLTRB(14*fem, 9*fem, 21*fem, 10*fem),
@@ -466,7 +467,7 @@ class Scene extends StatelessWidget {
             ),
             Container(
               // autogroupyvcyegk (TPdKws1Cxp1xJKyDmDYVcY)
-              padding: EdgeInsets.fromLTRB(31.38*fem, 15*fem, 27.62*fem, 1*fem),
+              padding: EdgeInsets.fromLTRB(30*fem, 10*fem, 27.62*fem, 1*fem),
               width: double.infinity,
               height: 86*fem,
               decoration: BoxDecoration (
@@ -485,13 +486,13 @@ class Scene extends StatelessWidget {
                   children: [
                     Container(
                       // autogroupvnlkfrk (TPdL8MhiidXy4M5L5mvnLk)
-                      margin: EdgeInsets.fromLTRB(0*fem, 1*fem, 68.03*fem, 0*fem),
+                      margin: EdgeInsets.fromLTRB(0*fem, 1*fem, 55*fem, 0*fem),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           Container(
                             // cardlistCbn (I166:271;166:266)
-                            margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0.48*fem, 12.75*fem),
+                            margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 3*fem, 3*fem),
                             child: TextButton(
                               onPressed: () {},
                               style: TextButton.styleFrom (
@@ -533,7 +534,7 @@ class Scene extends StatelessWidget {
                         children: [
                           Container(
                             // vectorYp4 (I166:271;166:262)
-                            margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 12*fem),
+                            margin: EdgeInsets.fromLTRB(0*fem, 6*fem, 0*fem, 12*fem),
                             width: 36.27*fem,
                             height: 35*fem,
                             child: Image.asset(
@@ -568,7 +569,7 @@ class Scene extends StatelessWidget {
                         children: [
                           Container(
                             // vectorYBn (I166:271;166:264)
-                            margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0.48*fem, 13*fem),
+                            margin: EdgeInsets.fromLTRB(0*fem, 1*fem, 10*fem, 5*fem),
                             child: TextButton(
                               onPressed: () {},
                               style: TextButton.styleFrom (

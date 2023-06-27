@@ -23,7 +23,7 @@ class Scene extends StatelessWidget {
           children: [
             Container(
               // autogroupx5uq2bn (TPdpBoSzNkH931uezDX5UQ)
-              padding: EdgeInsets.fromLTRB(34*fem, 51*fem, 28*fem, 31*fem),
+              padding: EdgeInsets.fromLTRB(20*fem, 51*fem, 10*fem, 31*fem),
               width: double.infinity,
               decoration: BoxDecoration (
                 color: Color(0xff3e54ac),
@@ -37,14 +37,14 @@ class Scene extends StatelessWidget {
                 children: [
                   Container(
                     // component1Kat (148:215)
-                    margin: EdgeInsets.fromLTRB(21*fem, 0*fem, 13.5*fem, 18*fem),
+                    margin: EdgeInsets.fromLTRB(15*fem, 0*fem, 10*fem, 18*fem),
                     width: double.infinity,
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.end,
                       children: [
                         Container(
                           // vectorRtp (I148:215;148:198)
-                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 24*fem, 7*fem),
+                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 10*fem, 7*fem),
                           child: TextButton(
                             onPressed: () {},
                             style: TextButton.styleFrom (
@@ -63,7 +63,7 @@ class Scene extends StatelessWidget {
                         ),
                         Container(
                           // vectorv4t (I148:215;148:196)
-                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 26*fem, 4*fem),
+                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 10*fem, 4*fem),
                           child: TextButton(
                             onPressed: () {},
                             style: TextButton.styleFrom (
@@ -82,7 +82,7 @@ class Scene extends StatelessWidget {
                         ),
                         Container(
                           // ellipse1RGY (I148:215;187:161)
-                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 20.75*fem, 0*fem),
+                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 10*fem, 8*fem),
                           width: 40*fem,
                           height: 40*fem,
                           decoration: BoxDecoration (
@@ -97,7 +97,7 @@ class Scene extends StatelessWidget {
                         ),
                         Container(
                           // autogroupjgsw67n (TPdppT4bEeyW6fqDBdJgsW)
-                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 21*fem, 0*fem),
+                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 10*fem, 0*fem),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
@@ -117,7 +117,7 @@ class Scene extends StatelessWidget {
                               ),
                               Container(
                                 // martinarmandoi9A (I148:215;148:191)
-                                margin: EdgeInsets.fromLTRB(0.25*fem, 0*fem, 0*fem, 0*fem),
+                                margin: EdgeInsets.fromLTRB(0.25*fem, 0*fem, 0*fem, 5*fem),
                                 child: Text(
                                   'Martin Armando',
                                   style: SafeGoogleFont (
@@ -927,8 +927,8 @@ class Scene extends StatelessWidget {
               ),
             ),
             Container(
-              // autogroupqr92fTa (TPdsUhxtnWMkwGVSuKqr92)
-              padding: EdgeInsets.fromLTRB(43.38*fem, 11*fem, 15.62*fem, 5*fem),
+              // autogroupyvcyegk (TPdKws1Cxp1xJKyDmDYVcY)
+              padding: EdgeInsets.fromLTRB(30*fem, 10*fem, 27.62*fem, 1*fem),
               width: double.infinity,
               height: 86*fem,
               decoration: BoxDecoration (
@@ -939,21 +939,21 @@ class Scene extends StatelessWidget {
                 ),
               ),
               child: Container(
-                // component3Zor (166:289)
+                // component38rp (166:271)
                 width: double.infinity,
                 height: double.infinity,
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Container(
-                      // autogroup7lzzK2L (TPdsf311yQeQWThuNo7LZz)
-                      margin: EdgeInsets.fromLTRB(0*fem, 1*fem, 68.03*fem, 0*fem),
+                      // autogroupvnlkfrk (TPdL8MhiidXy4M5L5mvnLk)
+                      margin: EdgeInsets.fromLTRB(0*fem, 1*fem, 55*fem, 0*fem),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           Container(
-                            // cardlistEQC (I166:289;166:266)
-                            margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0.48*fem, 12.75*fem),
+                            // cardlistCbn (I166:271;166:266)
+                            margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 3*fem, 3*fem),
                             child: TextButton(
                               onPressed: () {},
                               style: TextButton.styleFrom (
@@ -963,7 +963,7 @@ class Scene extends StatelessWidget {
                                 width: 36.27*fem,
                                 height: 35.25*fem,
                                 child: Image.asset(
-                                  'assets/diseo-movil/images/cardlist-Azg.png',
+                                  'assets/diseo-movil/images/cardlist-u9N.png',
                                   width: 36.27*fem,
                                   height: 35.25*fem,
                                 ),
@@ -971,7 +971,7 @@ class Scene extends StatelessWidget {
                             ),
                           ),
                           Text(
-                            // inventario7D6 (I166:289;166:269)
+                            // inventario5fa (I166:271;166:269)
                             'Inventario',
                             textAlign: TextAlign.center,
                             style: SafeGoogleFont (
@@ -986,7 +986,7 @@ class Scene extends StatelessWidget {
                       ),
                     ),
                     Container(
-                      // autogroupwvbzrRa (TPdsjsCJS2KzvQXpvMWVBz)
+                      // autogroupsjk6dBJ (TPdLGBp1PmN8q9vzrvSJK6)
                       margin: EdgeInsets.fromLTRB(0*fem, 1*fem, 73.24*fem, 1*fem),
                       width: 40.72*fem,
                       height: double.infinity,
@@ -994,26 +994,18 @@ class Scene extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           Container(
-                            // vectorZqn (I166:289;166:262)
-                            margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 12*fem),
-                            child: TextButton(
-                              onPressed: () {},
-                              style: TextButton.styleFrom (
-                                padding: EdgeInsets.zero,
-                              ),
-                              child: Container(
-                                width: 36.27*fem,
-                                height: 35*fem,
-                                child: Image.asset(
-                                  'assets/diseo-movil/images/vector-ZiU.png',
-                                  width: 36.27*fem,
-                                  height: 35*fem,
-                                ),
-                              ),
+                            // vectorYp4 (I166:271;166:262)
+                            margin: EdgeInsets.fromLTRB(0*fem, 6*fem, 0*fem, 12*fem),
+                            width: 36.27*fem,
+                            height: 35*fem,
+                            child: Image.asset(
+                              'assets/diseo-movil/images/vector-rHr.png',
+                              width: 36.27*fem,
+                              height: 35*fem,
                             ),
                           ),
                           Container(
-                            // iniciofdv (I166:289;166:263)
+                            // iniciosLY (I166:271;166:263)
                             width: double.infinity,
                             child: Text(
                               'Inicio',
@@ -1031,24 +1023,32 @@ class Scene extends StatelessWidget {
                       ),
                     ),
                     Container(
-                      // autogroupzqmeok8 (TPdsp7aDuRhpBTjy16zqme)
+                      // autogroupxfelPpg (TPdLMBfgRJH6RveaFZxFEL)
                       margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 1*fem),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           Container(
-                            // vectorx7E (I166:289;166:264)
-                            margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0.48*fem, 13*fem),
-                            width: 36.27*fem,
-                            height: 35*fem,
-                            child: Image.asset(
-                              'assets/diseo-movil/images/vector-gA8.png',
-                              width: 36.27*fem,
-                              height: 35*fem,
+                            // vectorYBn (I166:271;166:264)
+                            margin: EdgeInsets.fromLTRB(0*fem, 1*fem, 5*fem, 2*fem),
+                            child: TextButton(
+                              onPressed: () {},
+                              style: TextButton.styleFrom (
+                                padding: EdgeInsets.zero,
+                              ),
+                              child: Container(
+                                width: 36.27*fem,
+                                height: 35*fem,
+                                child: Image.asset(
+                                  'assets/diseo-movil/images/vector-rv8.png',
+                                  width: 36.27*fem,
+                                  height: 35*fem,
+                                ),
+                              ),
                             ),
                           ),
                           Text(
-                            // productosszt (I166:289;166:265)
+                            // productosEKW (I166:271;166:265)
                             'Productos',
                             textAlign: TextAlign.center,
                             style: SafeGoogleFont (

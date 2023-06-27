@@ -38,14 +38,14 @@ class Scene extends StatelessWidget {
                 children: [
                   Container(
                     // component1dGp (151:318)
-                    margin: EdgeInsets.fromLTRB(18*fem, 0*fem, 16.5*fem, 18*fem),
+                    margin: EdgeInsets.fromLTRB(8*fem, 0*fem, 10*fem, 15*fem),
                     width: double.infinity,
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.end,
                       children: [
                         Container(
                           // vector9W4 (I151:318;148:198)
-                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 24*fem, 7*fem),
+                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 5*fem, 7*fem),
                           child: TextButton(
                             onPressed: () {},
                             style: TextButton.styleFrom (
@@ -64,7 +64,7 @@ class Scene extends StatelessWidget {
                         ),
                         Container(
                           // vectorEnQ (I151:318;148:196)
-                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 26*fem, 4*fem),
+                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 5*fem, 4*fem),
                           child: TextButton(
                             onPressed: () {},
                             style: TextButton.styleFrom (
@@ -83,7 +83,7 @@ class Scene extends StatelessWidget {
                         ),
                         Container(
                           // ellipse1LaY (I151:318;187:161)
-                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 20.75*fem, 0*fem),
+                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 10*fem, 0*fem),
                           width: 40*fem,
                           height: 40*fem,
                           decoration: BoxDecoration (
@@ -98,7 +98,7 @@ class Scene extends StatelessWidget {
                         ),
                         Container(
                           // autogrouplhfre5S (TPddnw6rRMLAYoyB3vLHfr)
-                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 21*fem, 0*fem),
+                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 5*fem, 0*fem),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
@@ -135,7 +135,7 @@ class Scene extends StatelessWidget {
                         ),
                         Container(
                           // vectormpG (I151:318;148:193)
-                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 40*fem),
+                          margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 20*fem),
                           width: 17.5*fem,
                           height: 20*fem,
                           child: Image.asset(

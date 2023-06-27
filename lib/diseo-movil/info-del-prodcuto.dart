@@ -462,7 +462,7 @@ class Scene extends StatelessWidget {
                           children: [
                             Container(
                               // vectorKoz (I148:229;148:198)
-                              margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 24*fem, 7*fem),
+                              margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 15*fem, 20*fem),
                               width: 25*fem,
                               height: 25*fem,
                               child: Image.asset(
@@ -473,7 +473,7 @@ class Scene extends StatelessWidget {
                             ),
                             Container(
                               // vectoreLU (I148:229;148:196)
-                              margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 26*fem, 4*fem),
+                              margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 10*fem, 10*fem),
                               child: TextButton(
                                 onPressed: () {},
                                 style: TextButton.styleFrom (
@@ -492,7 +492,7 @@ class Scene extends StatelessWidget {
                             ),
                             Container(
                               // ellipse1w4g (I148:229;187:161)
-                              margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 20.75*fem, 0*fem),
+                              margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 18*fem, 10*fem),
                               width: 40*fem,
                               height: 40*fem,
                               decoration: BoxDecoration (
@@ -507,7 +507,7 @@ class Scene extends StatelessWidget {
                             ),
                             Container(
                               // autogroupilvpEJg (TPdn8hCnaYWxaeA6r8iLvp)
-                              margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 21*fem, 0*fem),
+                              margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 10*fem, 5*fem),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
